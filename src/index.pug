@@ -1,0 +1,11 @@
+extends templates/template 
+
+block title
+    title Заголовок страницы
+block append style
+block content 
+    include modules/header-module
+    //- могу код сюда писать но лучше инклюдить 
+    .wrapper 
+        h1 Заголовок
+        a(href="./sample-page/sample-page.html") sample-page
